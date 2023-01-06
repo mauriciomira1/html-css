@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Notícias</a>
+            <a href="#">Produtos</a>
+            <a href="#">Trabalhe Conosco</a>
+            <a href="#">Fale Conosco</a>
+            <div>Teste</div>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Sessão de 'Notícias' -->
+        <section class="corpo">
+            <article class="noticias">
+                <h2>Artigo sobre Rialma</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam assumenda illum, aut enim eum doloribus aperiam excepturi fugit possimus fuga quasi ipsa omnis nihil voluptas voluptatum sed velit. Hic, reprehenderit? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis labore quo dolores expedita ex doloremque quia architecto fugiat aut odio assumenda ratione a, minima commodi nobis illum magnam eligendi culpa!</p>
+                <section class="autor">
+                    <aside>Artigo escrito por José da Silva</aside>
+                    <img src="foto_3x4.png" alt="José da Silva" class = 'foto'>
+                </section>
+            </article>
+            <article class="noticias">
+                <h2>Ceres, a cidade do milhão</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam assumenda illum, aut enim eum doloribus aperiam excepturi fugit possimus fuga quasi ipsa omnis nihil voluptas voluptatum sed velit. Hic, reprehenderit? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis labore quo dolores expedita ex doloremque quia architecto fugiat aut odio assumenda ratione a.</p>
+                <section class="autor">
+                    <aside>Artigo escrito por José da Silva</aside>
+                    <img src="foto_3x4.png" alt="José da Silva" class = 'foto'>
+                </section>
+            </article>      
+            <article class="noticias">
+                <h2>Gama, a cidade política</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam assumenda illum, aut enim eum doloribus aperiam excepturi fugit possimus fuga quasi ipsa omnis nihil voluptas voluptatum sed velit. Hic, reprehenderit? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veritatis labore quo dolores expedita ex doloremque quia architecto fugiat aut odio assumenda ratione a, minima commodi nobis illum magnam eligendi culpa!</p>
+                <section class="autor">
+                    <aside>Artigo escrito por José da Silva</aside>
+                    <img src="foto_3x4.png" alt="José da Silva" class = 'foto'>
+                </section>
+            </article>
+        </section>
+        <!-- Sessão de 'Meu vídeo aleatório' -->
+        <section class="centralizar video" >
+            <h1 style="color: white; text-transform: uppercase;">Meu vídeo aleatório</h1>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/xW3qyJwNkok" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+        <!-- Seção de imagem -->
+        <section class="secao-imagem">
+            <h1>Agora uma foto responsiva</h1>
+            <picture>
+                <source media="(max-width: 600px)" srcset="mulher-maravilha-peq.png">
+                <img src="mulher-maravilha.jpg" alt="Mulher maravilha"></picture>
+        </section>
+    </main>
+    <!-- Rodapé do site -->
+    <footer>
+        <p>Desenvolvido por <a href="https://www.instagram.com/mauriciomira1/" target="_blank" id="meusite">Maurício Miranda</a></p>
+    </footer>
+</body>
+</html>
